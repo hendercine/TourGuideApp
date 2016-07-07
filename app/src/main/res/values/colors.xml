@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#4A312A</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#2F1D1A</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#FFF7DA</color>
+
+    <!-- Background color for the to eat category -->
+    <color name="category_to_eat">#FD8E09</color>
+
+    <!-- Background color for the to play category -->
+    <color name="category_to_play">#379237</color>
+
+    <!-- Background color for the to shop category -->
+    <color name="category_to_shop">#8800A0</color>
+
+    <!-- Background color for the to see category -->
+    <color name="category_to_see">#16AFCA</color>
 </resources>

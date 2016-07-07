@@ -1,3 +1,17 @@
 <resources>
+
     <string name="app_name">Sherman Village Tour</string>
+
+    <!-- Category name for To See [CHAR LIMIT=20] -->
+    <string name="category_to_see">To See</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_to_shop">To Shop</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_to_eat">To Eat</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_to_play">To Play</string>
+
 </resources>
