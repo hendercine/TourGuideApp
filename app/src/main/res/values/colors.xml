@@ -10,14 +10,14 @@
     <color name="tan_background">#FFF5EC</color>
 
     <!-- Background color for the to eat category -->
-    <color name="category_to_eat">#8C8535</color>
+    <color name="category_to_eat">#6B0504</color>
 
     <!-- Background color for the to play category -->
-    <color name="category_to_play">#5DB89D</color>
+    <color name="category_to_play">#D5E68D</color>
 
     <!-- Background color for the to shop category -->
-    <color name="category_to_shop">#F26547</color>
+    <color name="category_to_shop">#A3320B</color>
 
     <!-- Background color for the to see category -->
-    <color name="category_to_stay">#FFCA00</color>
+    <color name="category_to_stay">#241023</color>
 </resources>
