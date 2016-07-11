@@ -19,16 +19,19 @@ public class ToPlayFragment extends Fragment {
 
         // Create an array list of places to play and info about them
         final ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place("Hugo's", "lutti", R.drawable.number_one));
-        places.add(new Place("Pagliacci's", "otiiko", R.drawable.number_two));
-        places.add(new Place("three", "tolookosu", R.drawable.number_three));
-        places.add(new Place("four", "oyyisa", R.drawable.number_four));
-        places.add(new Place("five", "massokka", R.drawable.number_five));
-        places.add(new Place("six", "temmokka", R.drawable.number_six));
-        places.add(new Place("seven", "kenekaku", R.drawable.number_seven));
-        places.add(new Place("eight", "kawinta", R.drawable.number_eight));
-        places.add(new Place("nine", "wo’e", R.drawable.number_nine));
-        places.add(new Place("ten", "na’aacha", R.drawable.number_ten));
+        places.add(new Place("Studio City Rec Center",
+                "Huge and inclusive play structure for kids. Ramps, slides, monkey bats, swings " +
+                        "and even a sandy play area!", R.drawable.place_holder));
+        places.add(new Place("Weddington Golf and Tennis",
+                "Twelve dollar 9-hole and eight dollar replays right in the middle of the " +
+                        "neighborhood! Driving range and tennis courts too!",
+                R.drawable.place_holder));
+        places.add(new Place("Pinz Bowling Center",
+                "Huge late-night bowling lanes, billiards & arcade, plus a restaurant & bar. " +
+                        "Open until 1AM; 2AM on the weekend!", R.drawable.place_holder));
+        places.add(new Place("CBS Radford Studio Center",
+                "Be an audience member at a live studio taping! Daytime talk-shows and sitcoms, " +
+                        "the tickets are free!", R.drawable.place_holder));
 
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.category_to_play);
 

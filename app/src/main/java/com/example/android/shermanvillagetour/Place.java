@@ -8,7 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 public class Place extends AppCompatActivity {
 
 
-    private String pVenueUrl;
+    private String pVenueDescription;
 
     private String pVenueName;
 
@@ -16,9 +16,8 @@ public class Place extends AppCompatActivity {
 
     private static final int NO_IMAGE_PROVIDED = -1;
 
-
-    public Place(String venueUrl, String venueName, int imageResourceId) {
-        pVenueUrl = venueUrl;
+    public Place(String venueName, String venueDescription, int imageResourceId) {
+        pVenueDescription = venueDescription;
         pVenueName = venueName;
         pImageResourceId = imageResourceId;
     }
@@ -26,8 +25,8 @@ public class Place extends AppCompatActivity {
     /**
      * Get the venue url of the place
      */
-    public String getVenueUrl() {
-        return pVenueUrl;
+    public String getVenueDescription() {
+        return pVenueDescription;
     }
 
     /**
@@ -54,7 +53,7 @@ public class Place extends AppCompatActivity {
     @Override
     public String toString() {
         return "Place{" +
-                "pVenueUrl='" + pVenueUrl + '\'' +
+                "pVenueDescription='" + pVenueDescription + '\'' +
                 ", pVenueName='" + pVenueName + '\'' +
                 ", pImageResourceId=" + pImageResourceId +
                 '}';

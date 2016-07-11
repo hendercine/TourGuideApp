@@ -22,16 +22,20 @@ public class ToShopFragment extends Fragment {
 
         // Create an array list of places to shop and info about them
         final ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place("Hugo's", "lutti", R.drawable.number_one));
-        places.add(new Place("Pagliacci's", "otiiko", R.drawable.number_two));
-        places.add(new Place("three", "tolookosu", R.drawable.number_three));
-        places.add(new Place("four", "oyyisa", R.drawable.number_four));
-        places.add(new Place("five", "massokka", R.drawable.number_five));
-        places.add(new Place("six", "temmokka", R.drawable.number_six));
-        places.add(new Place("seven", "kenekaku", R.drawable.number_seven));
-        places.add(new Place("eight", "kawinta", R.drawable.number_eight));
-        places.add(new Place("nine", "wo’e", R.drawable.number_nine));
-        places.add(new Place("ten", "na’aacha", R.drawable.number_ten));
+        places.add(new Place("Whole Foods",
+                "Groceries for the health and environmentally conscious! Don't expect bargains " +
+                        "but you get what you pay for!", R.drawable.place_holder));
+        places.add(new Place("Raplh's",
+                "Groceries for the dollar conscious! Inviting layout and decent organic " +
+                        "selection, this Ralphs is among the better ones!",
+                R.drawable.place_holder));
+        places.add(new Place("Trader Joe's",
+                "A bit further outside of Sherman Village, if Whole Foods and Ralphs had a baby, " +
+                        "they'd surely name it Joe.", R.drawable.place_holder));
+        places.add(new Place("Ventura Blvd Window Shopping",
+                "So many niche stores that the street deserves its own listing! Just a stroll " +
+                        "down Ventura between Whitsett and Laurel Canyon is fun!",
+                R.drawable.place_holder));
 
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.category_to_shop);
 

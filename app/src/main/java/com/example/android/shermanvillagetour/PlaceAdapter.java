@@ -43,25 +43,16 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         // venueName TextView
         venueNameTextView.setText(currentPlace.getVenueName());
 
-        // Find the TextView in the list_item.xml layout with the ID venue_url_text_view
-        TextView venueUrlTextView = (TextView) listItemView.findViewById(R.id.venue_url_text_view);
-        // Get the venueUrl from the current Place object and set this text on the venueUrl TextView
-        venueUrlTextView.setText(currentPlace.getVenueUrl());
+
+        // Find the TextView in the list_item.xml layout with the ID venue_description_text_view
+        TextView venueDescriptionTextView = (TextView) listItemView.findViewById(R.id.venue_description_text_view);
+        // Get the venueDescription from the current Place object and set this text on the venueDescription TextView
+        venueDescriptionTextView.setText(currentPlace.getVenueDescription());
 
         // Find the TextView in the list_item.xml layout with the ID image
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
 
-
-
-        if (currentPlace.hasImage()) {
-            // Set the ImageView to the image resource specified in the current Place
             imageView.setImageResource(currentPlace.getImageResourceId());
-
-            imageView.setVisibility(View.VISIBLE);
-        }
-        else {
-            imageView.setVisibility(View.GONE);
-        }
 
         // Set the theme color for the list item
         View textContainer = listItemView.findViewById(R.id.text_container);

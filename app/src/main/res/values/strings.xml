@@ -3,7 +3,7 @@
     <string name="app_name">Sherman Village Tour</string>
 
     <!-- Category name for To See [CHAR LIMIT=20] -->
-    <string name="category_to_see">To See</string>
+    <string name="category_to_stay">To Stay</string>
 
     <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
     <string name="category_to_shop">To Shop</string>

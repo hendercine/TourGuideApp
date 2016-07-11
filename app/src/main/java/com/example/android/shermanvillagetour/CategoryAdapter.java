@@ -29,7 +29,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         } else if (position == 2){
             return new ToShopFragment();
         } else {
-            return new ToSeeFragment();
+            return new ToStayFragment();
         }
     }
 
@@ -47,7 +47,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         } else if (position == 2) {
             return pContext.getString(R.string.category_to_shop);
         } else {
-            return pContext.getString(R.string.category_to_see);
+            return pContext.getString(R.string.category_to_stay);
         }
     }
 
