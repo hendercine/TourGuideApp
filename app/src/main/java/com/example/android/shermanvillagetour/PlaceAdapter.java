@@ -49,10 +49,14 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         // Get the venueDescription from the current Place object and set this text on the venueDescription TextView
         venueDescriptionTextView.setText(currentPlace.getVenueDescription());
 
+        //TODO: Set venue description text link to associated website
+
         // Find the TextView in the list_item.xml layout with the ID image
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
 
-            imageView.setImageResource(currentPlace.getImageResourceId());
+        imageView.setImageResource(currentPlace.getImageResourceId());
+
+        //TODO: Set image view link to associated map link
 
         // Set the theme color for the list item
         View textContainer = listItemView.findViewById(R.id.text_container);

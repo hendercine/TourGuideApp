@@ -17,6 +17,8 @@ public class ToPlayFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.place_list, container, false);
 
+        //TODO: Expand ArrayList to five inputs to include links to venue map and website
+
         // Create an array list of places to play and info about them
         final ArrayList<Place> places = new ArrayList<Place>();
         places.add(new Place("Studio City Rec Center",
@@ -43,6 +45,9 @@ public class ToPlayFragment extends Fragment {
         // Make the {@link ListView} use the {@link PlaceAdapter} we created above, so that the
         // {@link ListView} will display list items for each {@link Place} in the list.
         listView.setAdapter(adapter);
+
+        //TODO: Add onClickListener for each image to display map via implicit intent
+        //TODO: Add onClickListener for each textview to link to venue website via implicit intent
 
         return rootView;
     }

@@ -7,14 +7,16 @@ import android.support.v7.app.AppCompatActivity;
 
 public class Place extends AppCompatActivity {
 
+    //TODO: Add private variable for venue map link
+    //TODO: Add private variable for venue website link
 
     private String pVenueDescription;
 
     private String pVenueName;
 
-    private int pImageResourceId = NO_IMAGE_PROVIDED;
+    private int pImageResourceId;
 
-    private static final int NO_IMAGE_PROVIDED = -1;
+    //TODO: Expand Place object to take five inputs instead of three
 
     public Place(String venueName, String venueDescription, int imageResourceId) {
         pVenueDescription = venueDescription;
@@ -43,9 +45,8 @@ public class Place extends AppCompatActivity {
         return pImageResourceId;
     }
 
-    public boolean hasImage() {
-        return pImageResourceId != NO_IMAGE_PROVIDED;
-    }
+    //TODO: Add method to get the venue map link
+    //TODO: Add method to get the venue website link
 
     /**
      * Returns the string representation of the {@link Place} object.
@@ -58,4 +59,5 @@ public class Place extends AppCompatActivity {
                 ", pImageResourceId=" + pImageResourceId +
                 '}';
     }
+
 }
