@@ -10,9 +10,9 @@ public class Place extends AppCompatActivity {
     //TODO: Add private variable for venue map link
     //TODO: Add private variable for venue website link
 
-    private String pVenueDescription;
+    private int pVenueDescription;
 
-    private String pVenueName;
+    private int pVenueName;
 
     private int pImageResourceId;
 
@@ -27,14 +27,14 @@ public class Place extends AppCompatActivity {
     /**
      * Get the venue url of the place
      */
-    public String getVenueDescription() {
+    public int getVenueDescription() {
         return pVenueDescription;
     }
 
     /**
      * Get the venue name of the place
      */
-    public String getVenueName() {
+    public int getVenueName() {
         return pVenueName;
     }
 

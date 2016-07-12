@@ -18,11 +18,13 @@
 
     <string name="title_placeholder">Hugo\'s Tacos</string>
 
-    <string name="hugo_title">Hugo's Tacos</string>
+    <string name="hugo_title">Hugo\'s Tacos</string>
 
-    <string name="pag_title">Pagliacci's</string>
+    <string name="pag_title">Pagliacci\'s</string>
 
     <string name="harv_title">Harvest Moon</string>
+
+    <string name="five_title">Five Guys</string>
 
     <string name="rec_center_title">Studio City Rec Center</string>
 
@@ -52,7 +54,7 @@
 
     <string name="pag_desc">Impressive Italian that also delivers via GrubHub! Not cheap but the bolognese is just incredible!</string>
 
-    <string name="harv_desc">Breakfast! Insanely amazing bacon! Like seriously, they call it 'sweet &amp; spicy bacon'!</string>
+    <string name="harv_desc">Breakfast! Insanely amazing bacon! Like seriously, they call it \'sweet &amp; spicy bacon\'!</string>
 
     <string name="five_desc">Just a burger joint but you can pre-order online and the cajun fries are bomb!</string>
 
