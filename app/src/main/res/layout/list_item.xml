@@ -35,7 +35,7 @@
             android:textAppearance="?android:textAppearanceLarge"
             android:textColor="@android:color/white"
             android:textStyle="bold"
-            tools:text="Hugo's Tacos" />
+            tools:text="@string/title_placeholder" />
 
         <TextView
             android:id="@+id/venue_description_text_view"
@@ -46,7 +46,7 @@
             android:textAppearance="?android:textAppearanceSmall"
             android:textColor="@android:color/white"
             android:textStyle="bold"
-            tools:text="Addictive walk-up tacos, burritos and more! The honey-chiplotle is almost drinkable!" />
+            tools:text="@string/description_placeholder" />
 
     </LinearLayout>
 

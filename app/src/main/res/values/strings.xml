@@ -14,4 +14,70 @@
     <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
     <string name="category_to_play">To Play</string>
 
+    <string name="description_placeholder">Addictive walk-up tacos, burritos and more! The honey-chiplotle is almost drinkable!</string>
+
+    <string name="title_placeholder">Hugo\'s Tacos</string>
+
+    <string name="hugo_title">Hugo's Tacos</string>
+
+    <string name="pag_title">Pagliacci's</string>
+
+    <string name="harv_title">Harvest Moon</string>
+
+    <string name="rec_center_title">Studio City Rec Center</string>
+
+    <string name="weddington_title">Weddington Golf and Tennis</string>
+
+    <string name="pinz_title">Pinz Bowling Center</string>
+
+    <string name="cbs_title">CBS Radford Studio Center</string>
+
+    <string name="whole_foods_title">Whole Foods</string>
+
+    <string name="ralphs_title">Ralph\'s</string>
+
+    <string name="trader_title">Trader Joe\'s</string>
+
+    <string name="ventura_title">Ventura Blvd Window Shopping</string>
+
+    <string name="sportsmen_title">Sportsmen\'s Lodge</string>
+
+    <string name="enchanted_title">The Enchanted Mansion</string>
+
+    <string name="plaza_title">The Plaza Apartments</string>
+
+    <string name="coldwater_title">Coldwater Apartments</string>
+
+    <string name="hugo_desc">Addictive walk-up tacos, burritos and more! The honey-chiplotle is almost drinkable!</string>
+
+    <string name="pag_desc">Impressive Italian that also delivers via GrubHub! Not cheap but the bolognese is just incredible!</string>
+
+    <string name="harv_desc">Breakfast! Insanely amazing bacon! Like seriously, they call it 'sweet &amp; spicy bacon'!</string>
+
+    <string name="five_desc">Just a burger joint but you can pre-order online and the cajun fries are bomb!</string>
+
+    <string name="rec_center_desc">Huge and inclusive play structure for kids. Ramps, slides, monkey bats, swings and even a sandy play area!</string>
+
+    <string name="weddington_desc">Twelve dollar 9-hole and eight dollar replays right in the middle of the neighborhood! Driving range and tennis courts too!</string>
+
+    <string name="pinz_desc">Huge late-night bowling lanes, billiards &amp; arcade, plus a restaurant &amp; bar. Open until 1AM; 2AM on the weekend!</string>
+
+    <string name="cbs_desc">Be an audience member at a live studio taping! Daytime talk-shows and sitcoms, the tickets are free!</string>
+
+    <string name="whole_foods_desc">Groceries for the health and environmentally conscious! Don\'t expect bargains but you get what you pay for!</string>
+
+    <string name="ralphs_desc">Groceries for the dollar conscious! Inviting layout and decent organic selection, this Ralphs is among the better ones!</string>
+
+    <string name="trader_desc">A bit further outside of Sherman Village, if Whole Foods and Ralphs had a baby, they\'d surely name it Joe.</string>
+
+    <string name="ventura_desc">So many niche stores that the street deserves its own listing! Just a stroll down Ventura between Whitsett and Laurel Canyon is fun!</string>
+
+    <string name="sportsmen_desc">Updated rooms with trendy dining, a pool &amp; free Universal Studio shuttles. Great for the \'out-of-towner\' who doesn\'t want something too \'Hollywood\'.</string>
+
+    <string name="enchanted_desc">Name says it all! Popular wedding and honeymoon spot, but It does not have to be event, it can just be a romantic weekend.</string>
+
+    <string name="plaza_desc">If you\'re staying indefinitely, this is highly rated with hot tub, pool and an awesome building manager!</string>
+
+    <string name="coldwater_desc">Well maintained, updated apartments with a pool and a great mix of tenants! Relaxed building manager and perfect Sherman Village location!</string>
+
 </resources>

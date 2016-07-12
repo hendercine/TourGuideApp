@@ -21,18 +21,14 @@ public class ToEatFragment extends Fragment {
 
         // Create an array list of places to eat and info about them
         final ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place("Hugo's Tacos",
-                "Addictive walk-up tacos, burritos and more! " +
-                        "The honey-chiplotle is almost drinkable!", R.drawable.hugos_tacos));
-        places.add(new Place("Pagliacci's",
-                "Impressive Italian that also delivers via GrubHub! " +
-                        "Not cheap but the bolognese is just incredible!", R.drawable.pagliaccis));
-        places.add(new Place("Harvest Moon",
-                "Breakfast! Insanely amazing bacon! Like seriously... " +
-                        "they call it 'sweet & spicy bacon'!", R.drawable.harvest_moon));
-        places.add(new Place("Five Guys",
-                "Just a burger joint but you can pre-order online" +
-                        " and the cajun fries are bomb!", R.drawable.five_guys));
+        places.add(new Place(R.string.hugo_title,
+                R.string.hugo_desc, R.drawable.hugos_tacos));
+        places.add(new Place(R.string.pag_title,
+                R.string.pag_desc, R.drawable.pagliaccis));
+        places.add(new Place(R.string.harv_title,
+                R.string.harv_desc, R.drawable.harvest_moon));
+        places.add(new Place(R.string.five_title,
+                R.string.five_desc, R.drawable.five_guys));
 
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.category_to_eat);
 

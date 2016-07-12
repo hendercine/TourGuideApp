@@ -21,19 +21,15 @@ public class ToPlayFragment extends Fragment {
 
         // Create an array list of places to play and info about them
         final ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place("Studio City Rec Center",
-                "Huge and inclusive play structure for kids. Ramps, slides, monkey bats, swings " +
-                        "and even a sandy play area!", R.drawable.place_holder));
-        places.add(new Place("Weddington Golf and Tennis",
-                "Twelve dollar 9-hole and eight dollar replays right in the middle of the " +
-                        "neighborhood! Driving range and tennis courts too!",
+        places.add(new Place(R.string.rec_center_title,
+                R.string.rec_center_desc, R.drawable.place_holder));
+        places.add(new Place(R.string.weddington_title,
+                R.string.weddington_desc,
                 R.drawable.place_holder));
-        places.add(new Place("Pinz Bowling Center",
-                "Huge late-night bowling lanes, billiards & arcade, plus a restaurant & bar. " +
-                        "Open until 1AM; 2AM on the weekend!", R.drawable.place_holder));
-        places.add(new Place("CBS Radford Studio Center",
-                "Be an audience member at a live studio taping! Daytime talk-shows and sitcoms, " +
-                        "the tickets are free!", R.drawable.place_holder));
+        places.add(new Place(R.string.pinz_title,
+                R.string.pinz_desc, R.drawable.place_holder));
+        places.add(new Place(R.string.cbs_title,
+                R.string.cbs_desc, R.drawable.place_holder));
 
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.category_to_play);
 

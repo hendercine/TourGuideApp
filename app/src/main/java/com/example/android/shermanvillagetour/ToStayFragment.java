@@ -24,19 +24,12 @@ public class ToStayFragment extends Fragment {
 
         // Create an array list of places to see and info about them
         final ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place("Sportsmen's Lodge",
-                "Updated rooms with trendy dining, a pool & free Universal Studio shuttles. " +
-                        "Great for the 'out-of-towner' who doesn't want something too " +
-                        "'Hollywood'.", R.drawable.place_holder));
-        places.add(new Place("The Enchanted Mansion",
-                "Name says it all! Popular wedding and honeymoon spot, but It does not have to " +
-                        "be event, it can just be a romantic weekend.", R.drawable.place_holder));
-        places.add(new Place("The Plaza Apartments",
-                "If you're staying indefinitely, this is highly rated with hot tub, " +
-                        "pool and an awesome building manager!", R.drawable.place_holder));
-        places.add(new Place("Coldwater Apartments",
-                "Well maintained, updated apartments with a pool and a great mix of tenants! " +
-                        "Relaxed building manager and perfect Sherman Village location!",
+        places.add(new Place(R.string.sportsmen_title, R.string.sportsmen_desc,
+                R.drawable.place_holder));
+        places.add(new Place(R.string.enchanted_title, R.string.enchanted_desc,
+                R.drawable.place_holder));
+        places.add(new Place(R.string.plaza_title, R.string.plaza_desc, R.drawable.place_holder));
+        places.add(new Place(R.string.coldwater_title, R.string.coldwater_desc,
                 R.drawable.place_holder));
 
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.category_to_stay);

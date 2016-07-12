@@ -18,7 +18,7 @@ public class Place extends AppCompatActivity {
 
     //TODO: Expand Place object to take five inputs instead of three
 
-    public Place(String venueName, String venueDescription, int imageResourceId) {
+    public Place(int venueName, int venueDescription, int imageResourceId) {
         pVenueDescription = venueDescription;
         pVenueName = venueName;
         pImageResourceId = imageResourceId;
